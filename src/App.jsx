@@ -1,7 +1,11 @@
+import Results from "./Results"
+import SearchForm from "./SearchForm"
+
 const App = () => {
   return (
     <div>
-      <h2>Words Api project</h2>
+      <SearchForm></SearchForm>
+      <Results></Results>
     </div>
   )
 }
